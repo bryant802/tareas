@@ -1,0 +1,21 @@
+body{
+    /*color de fondo de la pagina*/
+    background-color: blue($color: #000000);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.box{ 
+    width: 700px;  /*ancho*/
+    height: 300px; /*altura*/
+    background: lightsteelblue;   /*fondo*/
+    color:black;
+    top: 50%;  /*parte superior*/
+    left: 50%;
+    position: absolute;
+    transform: translate(-46%, -40%);  /*para sentrar*/
+    box-sizing: border-box;
+    padding: 70px 30px; /*para hacer un espaciado*/
+   /* text-justify: ; */
+   /* overflow-y: scroll; para colocar un scroll bar*/
+}
